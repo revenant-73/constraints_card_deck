@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react-swc'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base: '/constraints_card_deck/',
   plugins: [
     react(),
     VitePWA({
